@@ -1,0 +1,3 @@
+[submodule "surveillance_data"]
+	path = surveillance_data
+	url = https://github.com/folkehelseinstituttet/surveillance_data
