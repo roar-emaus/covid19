@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('../surveillance_data/covid19/data_covid19_msis_by_time_location_2021-03-08.csv')
+df = pd.read_csv('../surveillance_data/covid19/data_covid19_msis_by_time_location_latest.csv')
 oslo = df[df['location_code'] == 'county03']
 mr = df[df['location_code'] == 'county15']
 

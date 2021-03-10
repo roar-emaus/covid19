@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 df = pd.read_csv(
-        '../surveillance_data/covid19/data_covid19_msis_by_time_sex_age_2021-03-08.csv'
+        '../surveillance_data/covid19/data_covid19_msis_by_time_sex_age_latest.csv'
         )
 df = df[['sex', 'age', 'date', 'n']]
 df = df.set_index('date')
