@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-start_date = '2020-01-01'
+start_date = '2021-01-01'
 end_date = None
 
 df_lab = pd.read_csv('surveillance_data/covid19/data_covid19_lab_by_time_latest.csv')
